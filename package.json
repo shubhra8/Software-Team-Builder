@@ -1,0 +1,17 @@
+{
+  "name": "softwareteam",
+  "version": "1.0.0",
+  "description": "software engineering team",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "shubhra",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^27.4.5",
+    "modules": "^0.4.0",
+    "node": "^14.0.0"
+  }
+}

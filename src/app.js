@@ -9,25 +9,24 @@ const header = () => {
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./Assets/css/style.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
-<div><img style="width: 20%;height: 10%;margin-left: 38%;"src="https://www.sasp-science.org/sites/default/files/pictures/TEAMS%20Logo.jpg"
-				alt="image"></div></header>`
+<img style="width: 20%;height: 10%;margin-left: 38%;"src="https://www.sasp-science.org/sites/default/files/pictures/TEAMS%20Logo.jpg"
+				alt="image"></header>`
             }
 const manager = (Array) => {
     return `<br>
-    <br><body style="background-color: rgb(131, 119, 119);">
+    <br><body>
     <section id="main">
        
-        <h2 style="margin-left: 35%"><b>Manager</b></h2>
+        <h2><b>Manager</b></h2>
         <section id="Project">
 
 
-            <div style="margin-left: 35%;width: 400px;height: 200px;border-color: blue" class="card">
+            <div div style="border-color: black;border-width: 2px;" class="card">
                
                 <h5 id="Name">Name-${Array[0].ManagerName}</h5>
                 <h5 id="id">Id-${Array[0].Empid}</h5>
-                <h5 id="Email">Email-</h5>
                 <a href="mailto:${Array[0].Emailid}">Email id ${Array[0].Emailid}</a>
                 <h5 id="Phone">Phone-${Array[0].Phone}</h5>
               
@@ -43,17 +42,17 @@ const engineer = (engArray) => {
     <br>
     <section id="main">
        
-        <h2 style="margin-left: 35%"><b>Engineer</b></h2>
+        <h2><b>Engineer</b></h2>
         <section id="Project" >
 
 
-            <div style="margin-left: 35%;width: 400px;height: 200px;border-color: blue" class="card">
+            <div div style="border-color: black;border-width: 2px;" class="card">
 
                
                 <h5 id="Name">Name-${engArray.Engineername}</h5>
                 <h5 id="id">Id-${engArray.Empid}</h5>
-                <a href="mailto:${engArray.Emailid}">Email id ${engArray.Emailid}</a>
-                <a href="https://github.com/${engArray.Gituserid}">Git hub User id -https://github.com/${engArray.Gituserid}</a>
+                <a href="mailto:${engArray.Emailid}">Emailid- ${engArray.Emailid}</a>
+                <a href="https://github.com/${engArray.Gituserid}">Githubid -https://github.com/${engArray.Gituserid}</a>
                 
             </div>
             
@@ -67,11 +66,10 @@ const Intern = (intArray) => {
           <br>
     <section id="main">
        
-        <h2 style="margin-left: 35%"><b>Intern</b></h2>
+        <h2><b>Intern</b></h2>
         <section id="Project" >
 
-
-            <div style="margin-left: 35%;width: 400px;height: 200px;border-color: blue" class="card">
+     <div div style="border-color: black;border-width: 2px;" class="card">
 
                
                 <h5 id="Name">Name-${intArray.Internname}</h5>
